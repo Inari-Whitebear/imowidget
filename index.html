@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="main.js"></script>
+        <style>
+            #status {
+                /*border: 1px solid black;*/
+                border-radius: 5px;
+                display: inline-block;
+                padding: 10px 10px;
+                width: 120px;
+                text-align: center;
+                font-weight: bold;
+                color: white;
+                font-size: 14pt;
+                background: grey;
+            }
+
+            #status.online {
+                background-color: salmon;
+            }
+
+            #status.offline {
+                background-color: grey;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="status">Startup...</div>
+    </body>
+</html>
